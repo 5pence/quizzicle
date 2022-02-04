@@ -12,9 +12,9 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: #F6F4F3;
-  min-height: 66vh;
+  min-height: 80vh;
   border-radius: 2rem;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 h1 {
@@ -54,4 +54,35 @@ h1 {
   filter: drop-shadow(0 0 0.75rem #291F1E);
   border: black;
   cursor: pointer;
+}
+
+.question {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #291f1e;
+
+}
+
+.listAnswers {
+  margin: 3rem auto;
+  align-items: center;
+  text-align: center;
+}
+
+.listAnswers li {
+  padding: 1rem 1.5rem;
+  border: 1px solid #291F1E;
+  border-radius: 2rem;
+  display: inline;
+  list-style: none;
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #77c6eb;
 }
